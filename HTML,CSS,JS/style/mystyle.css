@@ -1,0 +1,20 @@
+em {
+    color: teal;
+}
+h1 { 
+    font-size: 25pt;
+    font-weight:bold; 
+    color: red; 
+}
+p { 
+    color: blue;
+    font-size: 1.4em;
+    margin-left: 0.5in;
+    margin-right: 1in; 
+}
+div {
+    background-color: red;
+}
+h2, a {
+    color: pink;
+}
