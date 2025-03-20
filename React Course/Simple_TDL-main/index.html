@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TDL App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sidebar buttons -->
+    <div class="buttonContainer">
+        <button id="addItem">Add Item</button>
+        <button id="removeItem">Remove Item</button>
+    </div>
+
+    <!-- Main content -->
+    <div class="mainContent">
+        <h2 class="mainTitle">My To Do List</h2>
+
+        <!-- Container for cards -->
+        <div id="itemCards">
+            <p id="defaultMessage" class="default-message">Add an item to begin</p>
+        </div>
+    </div>
+
+    <!-- Pop-up Form -->
+<div id="popupForm" class="popup">
+    <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h3>Add a New Task</h3>
+        <input type="text" id="taskTitle" placeholder="Task Title" required>
+        <textarea id="taskDescription" placeholder="Task Description" required></textarea>
+        <input type="date" id="taskDueDate" required> <!-- Due Date Input -->
+        <button id="saveTask"> Add Task</button>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
